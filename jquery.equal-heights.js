@@ -53,7 +53,6 @@ $.extend(Plugin.prototype, {
     // the heights array is then sorted by highest value and that value is added to each element as a 'min-height' or 'height' value depending
     // on the browser used.
     build: function() {
-        alert('here');
       var sortNumber = function(a,b){return b - a;};
         var heights = [];
         //Push each height into an array
